@@ -1,0 +1,59 @@
+{
+  "translation": {
+    "appTitle": "NEON SNAKE",
+    "home": {
+      "bestScore": "Best Score",
+      "play": "PLAY",
+      "settings": "Settings",
+      "streak": "{{count}} day streak",
+      "modes": {
+        "classic": "Classic",
+        "time_attack": "Time Attack",
+        "infinite": "Infinite"
+      },
+      "modeDesc": {
+        "classic": "Avoid walls and grow",
+        "time_attack": "Score max in 60 seconds",
+        "infinite": "No walls, endless game"
+      }
+    },
+    "game": {
+      "score": "Score",
+      "level": "Level",
+      "time": "Time",
+      "paused": "PAUSED",
+      "resume": "Resume",
+      "menu": "Menu",
+      "pu": { "turbo": "TURBO!", "shield": "SHIELD!", "x2": "2× POINTS!" }
+    },
+    "over": {
+      "title": "GAME OVER",
+      "newRecord": "NEW RECORD!",
+      "score": "Score",
+      "best": "Best",
+      "retry": "Try Again",
+      "home": "Home"
+    },
+    "settings": {
+      "title": "Settings",
+      "sound": "Sound",
+      "vibration": "Vibration",
+      "theme": "Color Theme",
+      "language": "Language",
+      "skins": "Snake Skins",
+      "back": "Back",
+      "on": "On",
+      "off": "Off",
+      "locked": "Locked ({{pts}} pts)",
+      "select": "Select",
+      "selected": "Selected"
+    },
+    "skins": {
+      "classic": "Classic Green",
+      "cyber": "Cyber Blue",
+      "plasma": "Plasma Purple",
+      "lava": "Lava Orange",
+      "ice": "Ice White"
+    }
+  }
+}

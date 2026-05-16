@@ -1,0 +1,33 @@
+{
+  "translation": {
+    "appTitle": "NEON SNAKE",
+    "home": {
+      "bestScore": "Miglior Punteggio",
+      "play": "GIOCA",
+      "settings": "Impostazioni",
+      "streak": "Serie di {{count}} giorni",
+      "modes": { "classic": "Classico", "time_attack": "Controtempo", "infinite": "Infinito" },
+      "modeDesc": {
+        "classic": "Evita i muri e cresci",
+        "time_attack": "Punteggio max in 60 secondi",
+        "infinite": "Senza muri, gioco infinito"
+      }
+    },
+    "game": {
+      "score": "Punteggio", "level": "Livello", "time": "Tempo",
+      "paused": "IN PAUSA", "resume": "Riprendi", "menu": "Menu",
+      "pu": { "turbo": "TURBO!", "shield": "SCUDO!", "x2": "2× PUNTI!" }
+    },
+    "over": {
+      "title": "GAME OVER", "newRecord": "NUOVO RECORD!",
+      "score": "Punteggio", "best": "Migliore", "retry": "Riprova", "home": "Home"
+    },
+    "settings": {
+      "title": "Impostazioni", "sound": "Suono", "vibration": "Vibrazione",
+      "theme": "Tema Colore", "language": "Lingua", "skins": "Skin Serpente",
+      "back": "Indietro", "on": "Attivo", "off": "Disattivo",
+      "locked": "Bloccato ({{pts}} pt)", "select": "Seleziona", "selected": "Selezionato"
+    },
+    "skins": { "classic": "Verde Classico", "cyber": "Blu Cyber", "plasma": "Plasma Viola", "lava": "Arancio Lava", "ice": "Bianco Ghiaccio" }
+  }
+}

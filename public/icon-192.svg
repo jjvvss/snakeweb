@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" fill="#000000"/>
+  <rect x="20" y="96" width="28" height="28" rx="4" fill="#00FF41" filter="url(#g)"/>
+  <rect x="52" y="96" width="28" height="28" rx="4" fill="#00CC33"/>
+  <rect x="84" y="96" width="28" height="28" rx="4" fill="#00AA2A"/>
+  <rect x="84" y="64" width="28" height="28" rx="4" fill="#00CC33"/>
+  <rect x="84" y="32" width="28" height="28" rx="4" fill="#00FF41" filter="url(#g)"/>
+  <rect x="116" y="32" width="28" height="28" rx="4" fill="#00CC33"/>
+  <rect x="148" y="32" width="28" height="28" rx="4" fill="#00FF41"/>
+  <circle cx="162" cy="24" r="5" fill="#FF2244"/>
+  <circle cx="154" cy="28" r="5" fill="#FF2244"/>
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+</svg>

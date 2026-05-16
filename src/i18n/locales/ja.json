@@ -1,0 +1,33 @@
+{
+  "translation": {
+    "appTitle": "ネオンスネーク",
+    "home": {
+      "bestScore": "ベストスコア",
+      "play": "プレイ",
+      "settings": "設定",
+      "streak": "{{count}}日連続",
+      "modes": { "classic": "クラシック", "time_attack": "タイムアタック", "infinite": "無限" },
+      "modeDesc": {
+        "classic": "壁を避けて成長しよう",
+        "time_attack": "60秒で最高スコアを狙え",
+        "infinite": "壁なし、無限ゲーム"
+      }
+    },
+    "game": {
+      "score": "スコア", "level": "レベル", "time": "時間",
+      "paused": "一時停止", "resume": "再開", "menu": "メニュー",
+      "pu": { "turbo": "ターボ!", "shield": "シールド!", "x2": "2倍ポイント!" }
+    },
+    "over": {
+      "title": "ゲームオーバー", "newRecord": "新記録!",
+      "score": "スコア", "best": "ベスト", "retry": "もう一度", "home": "ホーム"
+    },
+    "settings": {
+      "title": "設定", "sound": "サウンド", "vibration": "バイブレーション",
+      "theme": "カラーテーマ", "language": "言語", "skins": "スネークスキン",
+      "back": "戻る", "on": "オン", "off": "オフ",
+      "locked": "ロック済み（{{pts}}pt）", "select": "選択", "selected": "選択中"
+    },
+    "skins": { "classic": "クラシックグリーン", "cyber": "サイバーブルー", "plasma": "プラズマパープル", "lava": "ラバオレンジ", "ice": "アイスホワイト" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "translation": {
+    "appTitle": "NEON SNAKE",
+    "home": {
+      "bestScore": "Melhor Pontuação",
+      "play": "JOGAR",
+      "settings": "Configurações",
+      "streak": "Sequência de {{count}} dias",
+      "modes": { "classic": "Clássico", "time_attack": "Contra o Tempo", "infinite": "Infinito" },
+      "modeDesc": {
+        "classic": "Evite paredes e cresça",
+        "time_attack": "Pontuação máxima em 60 segundos",
+        "infinite": "Sem paredes, jogo sem fim"
+      }
+    },
+    "game": {
+      "score": "Pontuação", "level": "Nível", "time": "Tempo",
+      "paused": "PAUSADO", "resume": "Continuar", "menu": "Menu",
+      "pu": { "turbo": "TURBO!", "shield": "ESCUDO!", "x2": "2× PONTOS!" }
+    },
+    "over": {
+      "title": "FIM DE JOGO", "newRecord": "NOVO RECORDE!",
+      "score": "Pontuação", "best": "Melhor", "retry": "Tentar Novamente", "home": "Início"
+    },
+    "settings": {
+      "title": "Configurações", "sound": "Som", "vibration": "Vibração",
+      "theme": "Tema de Cor", "language": "Idioma", "skins": "Skins da Cobra",
+      "back": "Voltar", "on": "Ligado", "off": "Desligado",
+      "locked": "Bloqueado ({{pts}} pts)", "select": "Selecionar", "selected": "Selecionado"
+    },
+    "skins": { "classic": "Verde Clássico", "cyber": "Azul Cyber", "plasma": "Plasma Roxo", "lava": "Laranja Lava", "ice": "Branco Gelo" }
+  }
+}

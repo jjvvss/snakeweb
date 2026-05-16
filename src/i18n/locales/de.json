@@ -1,0 +1,59 @@
+{
+  "translation": {
+    "appTitle": "NEON SNAKE",
+    "home": {
+      "bestScore": "Bester Score",
+      "play": "SPIELEN",
+      "settings": "Einstellungen",
+      "streak": "{{count}} Tage Serie",
+      "modes": {
+        "classic": "Klassisch",
+        "time_attack": "Zeitangriff",
+        "infinite": "Unendlich"
+      },
+      "modeDesc": {
+        "classic": "Meide Wände und wachse",
+        "time_attack": "Max. Score in 60 Sekunden",
+        "infinite": "Ohne Wände, endloses Spiel"
+      }
+    },
+    "game": {
+      "score": "Score",
+      "level": "Level",
+      "time": "Zeit",
+      "paused": "PAUSE",
+      "resume": "Weiter",
+      "menu": "Menü",
+      "pu": { "turbo": "TURBO!", "shield": "SCHILD!", "x2": "2× PUNKTE!" }
+    },
+    "over": {
+      "title": "SPIEL VORBEI",
+      "newRecord": "NEUER REKORD!",
+      "score": "Score",
+      "best": "Bester",
+      "retry": "Nochmal",
+      "home": "Startseite"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "sound": "Ton",
+      "vibration": "Vibration",
+      "theme": "Farbthema",
+      "language": "Sprache",
+      "skins": "Schlangen-Skins",
+      "back": "Zurück",
+      "on": "An",
+      "off": "Aus",
+      "locked": "Gesperrt ({{pts}} Pkt.)",
+      "select": "Auswählen",
+      "selected": "Ausgewählt"
+    },
+    "skins": {
+      "classic": "Klassisches Grün",
+      "cyber": "Cyber Blau",
+      "plasma": "Plasma Lila",
+      "lava": "Lava Orange",
+      "ice": "Eis Weiß"
+    }
+  }
+}

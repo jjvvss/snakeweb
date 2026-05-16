@@ -1,0 +1,59 @@
+{
+  "translation": {
+    "appTitle": "NEON SNAKE",
+    "home": {
+      "bestScore": "Meilleur Score",
+      "play": "JOUER",
+      "settings": "Paramètres",
+      "streak": "Série de {{count}} jours",
+      "modes": {
+        "classic": "Classique",
+        "time_attack": "Contre-la-montre",
+        "infinite": "Infini"
+      },
+      "modeDesc": {
+        "classic": "Évite les murs et grandis",
+        "time_attack": "Score max en 60 secondes",
+        "infinite": "Sans murs, jeu sans fin"
+      }
+    },
+    "game": {
+      "score": "Score",
+      "level": "Niveau",
+      "time": "Temps",
+      "paused": "PAUSE",
+      "resume": "Reprendre",
+      "menu": "Menu",
+      "pu": { "turbo": "TURBO!", "shield": "BOUCLIER!", "x2": "2× POINTS!" }
+    },
+    "over": {
+      "title": "FIN DE PARTIE",
+      "newRecord": "NOUVEAU RECORD!",
+      "score": "Score",
+      "best": "Meilleur",
+      "retry": "Réessayer",
+      "home": "Accueil"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "sound": "Son",
+      "vibration": "Vibration",
+      "theme": "Thème de Couleur",
+      "language": "Langue",
+      "skins": "Skins du Serpent",
+      "back": "Retour",
+      "on": "Activé",
+      "off": "Désactivé",
+      "locked": "Verrouillé ({{pts}} pts)",
+      "select": "Choisir",
+      "selected": "Sélectionné"
+    },
+    "skins": {
+      "classic": "Vert Classique",
+      "cyber": "Bleu Cyber",
+      "plasma": "Plasma Violet",
+      "lava": "Orange Lave",
+      "ice": "Blanc Glace"
+    }
+  }
+}

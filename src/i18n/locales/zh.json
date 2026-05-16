@@ -1,0 +1,33 @@
+{
+  "translation": {
+    "appTitle": "霓虹贪吃蛇",
+    "home": {
+      "bestScore": "最高分",
+      "play": "开始游戏",
+      "settings": "设置",
+      "streak": "连续{{count}}天",
+      "modes": { "classic": "经典模式", "time_attack": "计时模式", "infinite": "无限模式" },
+      "modeDesc": {
+        "classic": "避开墙壁，不断成长",
+        "time_attack": "60秒内获得最高分",
+        "infinite": "无墙壁，无尽游戏"
+      }
+    },
+    "game": {
+      "score": "分数", "level": "等级", "time": "时间",
+      "paused": "已暂停", "resume": "继续", "menu": "菜单",
+      "pu": { "turbo": "加速!", "shield": "护盾!", "x2": "双倍分数!" }
+    },
+    "over": {
+      "title": "游戏结束", "newRecord": "新纪录!",
+      "score": "分数", "best": "最高分", "retry": "再玩一次", "home": "主页"
+    },
+    "settings": {
+      "title": "设置", "sound": "声音", "vibration": "震动",
+      "theme": "颜色主题", "language": "语言", "skins": "蛇皮肤",
+      "back": "返回", "on": "开", "off": "关",
+      "locked": "锁定（{{pts}}分）", "select": "选择", "selected": "已选择"
+    },
+    "skins": { "classic": "经典绿色", "cyber": "赛博蓝色", "plasma": "等离子紫色", "lava": "熔岩橙色", "ice": "冰霜白色" }
+  }
+}
