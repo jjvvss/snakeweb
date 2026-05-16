@@ -16,10 +16,23 @@ export const DIR = {
 export const MODES = { CLASSIC: 'classic', TIME_ATTACK: 'time_attack', INFINITE: 'infinite' };
 
 export const PU = { TURBO: 'turbo', SHIELD: 'shield', X2: 'x2' };
-
 export const PU_DURATION = { turbo: 5000, shield: 3000, x2: 10000 };
-
 export const PU_COLOR = { turbo: '#FFD700', shield: '#00FFFF', x2: '#FF00FF' };
+
+// ── Food types ───────────────────────────────────────────────────────────────
+export const FOOD = { DATA: 'data', VIRUS: 'virus', OVERCLOCK: 'overclock', GLITCH: 'glitch' };
+export const FOOD_COLOR  = { data: '#FF2244', virus: '#22FF66', overclock: '#FF8800', glitch: '#CC44FF' };
+export const FOOD_GLOW   = { data: '#FF2244', virus: '#22FF66', overclock: '#FF8800', glitch: '#CC44FF' };
+// Weighted probability (sum = 100)
+export const FOOD_WEIGHTS = { data: 60, virus: 15, overclock: 15, glitch: 10 };
+
+// ── Dash ─────────────────────────────────────────────────────────────────────
+export const DASH_TICKS    = 3;      // extra ticks per dash
+export const DASH_COOLDOWN = 4000;   // ms
+
+// ── Hack mode ─────────────────────────────────────────────────────────────────
+export const HACK_DURATION = 2000;   // ms invulnerable
+export const HACK_COOLDOWN = 8000;   // ms
 
 export const SKINS = [
   { id: 'classic', name: 'Classic Green', head: '#00FF41', body: '#00CC33', glow: '#00FF41', pts: 0 },

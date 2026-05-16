@@ -1,9 +1,18 @@
 let ctx = null;
+let sfxGain = null;
 
 function getCtx() {
-  if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
+  if (!ctx) {
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    sfxGain = ctx.createGain();
+    sfxGain.connect(ctx.destination);
+  }
   if (ctx.state === 'suspended') ctx.resume();
   return ctx;
+}
+
+export function setSfxVolume(v) {
+  if (sfxGain && ctx) sfxGain.gain.setTargetAtTime(Math.max(0.0001, v), ctx.currentTime, 0.05);
 }
 
 function tone(freq, type, dur, vol = 0.25, start = 0) {
@@ -12,7 +21,7 @@ function tone(freq, type, dur, vol = 0.25, start = 0) {
     const osc = c.createOscillator();
     const gain = c.createGain();
     osc.connect(gain);
-    gain.connect(c.destination);
+    gain.connect(sfxGain);
     osc.type = type;
     osc.frequency.setValueAtTime(freq, c.currentTime + start);
     gain.gain.setValueAtTime(vol, c.currentTime + start);

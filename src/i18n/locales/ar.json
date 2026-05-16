@@ -6,6 +6,7 @@
       "play": "العب",
       "settings": "الإعدادات",
       "streak": "سلسلة {{count}} أيام",
+      "leaderboard": "أفضل الهاكرز",
       "modes": { "classic": "كلاسيكي", "time_attack": "ضد الوقت", "infinite": "لا نهائي" },
       "modeDesc": {
         "classic": "تجنب الجدران وانمو",
@@ -16,15 +17,19 @@
     "game": {
       "score": "النتيجة", "level": "المستوى", "time": "الوقت",
       "paused": "متوقف", "resume": "استئناف", "menu": "القائمة",
-      "pu": { "turbo": "تيربو!", "shield": "درع!", "x2": "نقاط مضاعفة!" }
+      "pu": { "turbo": "تيربو!", "shield": "درع!", "x2": "نقاط مضاعفة!" },
+      "hack": "هاك!", "hackReady": "هاك جاهز",
+      "combo": "كومبو ×{{n}}",
+      "food": { "data": "بيانات", "virus": "فيروس", "overclock": "أوفركلوك", "glitch": "خلل" }
     },
     "over": {
       "title": "انتهت اللعبة", "newRecord": "رقم قياسي جديد!",
-      "score": "النتيجة", "best": "الأفضل", "retry": "إعادة المحاولة", "home": "الرئيسية"
+      "score": "النتيجة", "best": "الأفضل", "retry": "إعادة المحاولة", "home": "الرئيسية",
+      "hacker": "المعرف: {{name}}", "leaderboard": "أفضل الهاكرز"
     },
     "settings": {
-      "title": "الإعدادات", "sound": "الصوت", "vibration": "الاهتزاز",
-      "theme": "سمة اللون", "language": "اللغة", "skins": "مظهر الثعبان",
+      "title": "الإعدادات", "music": "موسيقى", "sfx": "مؤثرات", "vibration": "الاهتزاز",
+      "walls": "الجدران", "theme": "سمة اللون", "language": "اللغة", "skins": "مظهر الثعبان",
       "back": "رجوع", "on": "تشغيل", "off": "إيقاف",
       "locked": "مقفل ({{pts}} نقطة)", "select": "اختيار", "selected": "مختار"
     },

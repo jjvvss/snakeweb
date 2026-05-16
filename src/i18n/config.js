@@ -12,14 +12,15 @@ import zh from './locales/zh.json';
 import ja from './locales/ja.json';
 import ko from './locales/ko.json';
 import ar from './locales/ar.json';
+import tr from './locales/tr.json';
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    resources: { en, es, fr, de, it, pt, zh, ja, ko, ar },
+    resources: { en, es, fr, de, it, pt, zh, ja, ko, ar, tr },
     fallbackLng: 'en',
-    supportedLngs: ['en','es','fr','de','it','pt','zh','ja','ko','ar'],
+    supportedLngs: ['en','es','fr','de','it','pt','zh','ja','ko','ar','tr'],
     detection: {
       order: ['localStorage', 'navigator'],
       lookupLocalStorage: 'neon-snake-lang',

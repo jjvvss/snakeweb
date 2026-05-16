@@ -6,6 +6,7 @@
       "play": "JUGAR",
       "settings": "Configuración",
       "streak": "Racha de {{count}} días",
+      "leaderboard": "Top Hackers",
       "modes": {
         "classic": "Clásico",
         "time_attack": "Contrarreloj",
@@ -24,7 +25,11 @@
       "paused": "PAUSA",
       "resume": "Continuar",
       "menu": "Menú",
-      "pu": { "turbo": "¡TURBO!", "shield": "¡ESCUDO!", "x2": "¡2× PUNTOS!" }
+      "pu": { "turbo": "¡TURBO!", "shield": "¡ESCUDO!", "x2": "¡2× PUNTOS!" },
+      "hack": "¡HACK!",
+      "hackReady": "HACK LISTO",
+      "combo": "COMBO ×{{n}}",
+      "food": { "data": "DATOS", "virus": "VIRUS", "overclock": "OVERCLOCK", "glitch": "GLITCH" }
     },
     "over": {
       "title": "FIN DEL JUEGO",
@@ -32,12 +37,16 @@
       "score": "Puntaje",
       "best": "Mejor",
       "retry": "Reintentar",
-      "home": "Inicio"
+      "home": "Inicio",
+      "hacker": "ID: {{name}}",
+      "leaderboard": "TOP HACKERS"
     },
     "settings": {
       "title": "Configuración",
-      "sound": "Sonido",
+      "music": "Música",
+      "sfx": "Efectos",
       "vibration": "Vibración",
+      "walls": "Muros",
       "theme": "Tema de Color",
       "language": "Idioma",
       "skins": "Skins de Serpiente",

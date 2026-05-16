@@ -6,6 +6,7 @@
       "play": "게임 시작",
       "settings": "설정",
       "streak": "{{count}}일 연속",
+      "leaderboard": "탑 해커",
       "modes": { "classic": "클래식", "time_attack": "타임 어택", "infinite": "무한" },
       "modeDesc": {
         "classic": "벽을 피하고 성장하세요",
@@ -16,15 +17,19 @@
     "game": {
       "score": "점수", "level": "레벨", "time": "시간",
       "paused": "일시정지", "resume": "계속하기", "menu": "메뉴",
-      "pu": { "turbo": "터보!", "shield": "실드!", "x2": "2배 점수!" }
+      "pu": { "turbo": "터보!", "shield": "실드!", "x2": "2배 점수!" },
+      "hack": "핵!", "hackReady": "핵 준비됨",
+      "combo": "콤보 ×{{n}}",
+      "food": { "data": "데이터", "virus": "바이러스", "overclock": "오버클록", "glitch": "글리치" }
     },
     "over": {
       "title": "게임 오버", "newRecord": "신기록!",
-      "score": "점수", "best": "최고", "retry": "다시하기", "home": "홈"
+      "score": "점수", "best": "최고", "retry": "다시하기", "home": "홈",
+      "hacker": "ID: {{name}}", "leaderboard": "탑 해커"
     },
     "settings": {
-      "title": "설정", "sound": "사운드", "vibration": "진동",
-      "theme": "색상 테마", "language": "언어", "skins": "스네이크 스킨",
+      "title": "설정", "music": "음악", "sfx": "효과음", "vibration": "진동",
+      "walls": "벽", "theme": "색상 테마", "language": "언어", "skins": "스네이크 스킨",
       "back": "뒤로", "on": "켜짐", "off": "꺼짐",
       "locked": "잠김 ({{pts}}점)", "select": "선택", "selected": "선택됨"
     },

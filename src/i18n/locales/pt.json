@@ -6,6 +6,7 @@
       "play": "JOGAR",
       "settings": "Configurações",
       "streak": "Sequência de {{count}} dias",
+      "leaderboard": "Top Hackers",
       "modes": { "classic": "Clássico", "time_attack": "Contra o Tempo", "infinite": "Infinito" },
       "modeDesc": {
         "classic": "Evite paredes e cresça",
@@ -16,15 +17,19 @@
     "game": {
       "score": "Pontuação", "level": "Nível", "time": "Tempo",
       "paused": "PAUSADO", "resume": "Continuar", "menu": "Menu",
-      "pu": { "turbo": "TURBO!", "shield": "ESCUDO!", "x2": "2× PONTOS!" }
+      "pu": { "turbo": "TURBO!", "shield": "ESCUDO!", "x2": "2× PONTOS!" },
+      "hack": "HACK!", "hackReady": "HACK PRONTO",
+      "combo": "COMBO ×{{n}}",
+      "food": { "data": "DADOS", "virus": "VÍRUS", "overclock": "OVERCLOCK", "glitch": "GLITCH" }
     },
     "over": {
       "title": "FIM DE JOGO", "newRecord": "NOVO RECORDE!",
-      "score": "Pontuação", "best": "Melhor", "retry": "Tentar Novamente", "home": "Início"
+      "score": "Pontuação", "best": "Melhor", "retry": "Tentar Novamente", "home": "Início",
+      "hacker": "ID: {{name}}", "leaderboard": "TOP HACKERS"
     },
     "settings": {
-      "title": "Configurações", "sound": "Som", "vibration": "Vibração",
-      "theme": "Tema de Cor", "language": "Idioma", "skins": "Skins da Cobra",
+      "title": "Configurações", "music": "Música", "sfx": "Efeitos", "vibration": "Vibração",
+      "walls": "Paredes", "theme": "Tema de Cor", "language": "Idioma", "skins": "Skins da Cobra",
       "back": "Voltar", "on": "Ligado", "off": "Desligado",
       "locked": "Bloqueado ({{pts}} pts)", "select": "Selecionar", "selected": "Selecionado"
     },

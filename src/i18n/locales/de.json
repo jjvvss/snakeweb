@@ -6,6 +6,7 @@
       "play": "SPIELEN",
       "settings": "Einstellungen",
       "streak": "{{count}} Tage Serie",
+      "leaderboard": "Top Hacker",
       "modes": {
         "classic": "Klassisch",
         "time_attack": "Zeitangriff",
@@ -24,7 +25,11 @@
       "paused": "PAUSE",
       "resume": "Weiter",
       "menu": "Menü",
-      "pu": { "turbo": "TURBO!", "shield": "SCHILD!", "x2": "2× PUNKTE!" }
+      "pu": { "turbo": "TURBO!", "shield": "SCHILD!", "x2": "2× PUNKTE!" },
+      "hack": "HACK!",
+      "hackReady": "HACK BEREIT",
+      "combo": "COMBO ×{{n}}",
+      "food": { "data": "DATEN", "virus": "VIRUS", "overclock": "OVERCLOCK", "glitch": "GLITCH" }
     },
     "over": {
       "title": "SPIEL VORBEI",
@@ -32,12 +37,16 @@
       "score": "Score",
       "best": "Bester",
       "retry": "Nochmal",
-      "home": "Startseite"
+      "home": "Startseite",
+      "hacker": "ID: {{name}}",
+      "leaderboard": "TOP HACKER"
     },
     "settings": {
       "title": "Einstellungen",
-      "sound": "Ton",
+      "music": "Musik",
+      "sfx": "Klang",
       "vibration": "Vibration",
+      "walls": "Wände",
       "theme": "Farbthema",
       "language": "Sprache",
       "skins": "Schlangen-Skins",

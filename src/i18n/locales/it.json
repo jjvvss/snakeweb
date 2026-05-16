@@ -6,6 +6,7 @@
       "play": "GIOCA",
       "settings": "Impostazioni",
       "streak": "Serie di {{count}} giorni",
+      "leaderboard": "Top Hacker",
       "modes": { "classic": "Classico", "time_attack": "Controtempo", "infinite": "Infinito" },
       "modeDesc": {
         "classic": "Evita i muri e cresci",
@@ -16,15 +17,19 @@
     "game": {
       "score": "Punteggio", "level": "Livello", "time": "Tempo",
       "paused": "IN PAUSA", "resume": "Riprendi", "menu": "Menu",
-      "pu": { "turbo": "TURBO!", "shield": "SCUDO!", "x2": "2× PUNTI!" }
+      "pu": { "turbo": "TURBO!", "shield": "SCUDO!", "x2": "2× PUNTI!" },
+      "hack": "HACK!", "hackReady": "HACK PRONTO",
+      "combo": "COMBO ×{{n}}",
+      "food": { "data": "DATI", "virus": "VIRUS", "overclock": "OVERCLOCK", "glitch": "GLITCH" }
     },
     "over": {
       "title": "GAME OVER", "newRecord": "NUOVO RECORD!",
-      "score": "Punteggio", "best": "Migliore", "retry": "Riprova", "home": "Home"
+      "score": "Punteggio", "best": "Migliore", "retry": "Riprova", "home": "Home",
+      "hacker": "ID: {{name}}", "leaderboard": "TOP HACKER"
     },
     "settings": {
-      "title": "Impostazioni", "sound": "Suono", "vibration": "Vibrazione",
-      "theme": "Tema Colore", "language": "Lingua", "skins": "Skin Serpente",
+      "title": "Impostazioni", "music": "Musica", "sfx": "Effetti", "vibration": "Vibrazione",
+      "walls": "Muri", "theme": "Tema Colore", "language": "Lingua", "skins": "Skin Serpente",
       "back": "Indietro", "on": "Attivo", "off": "Disattivo",
       "locked": "Bloccato ({{pts}} pt)", "select": "Seleziona", "selected": "Selezionato"
     },

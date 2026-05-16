@@ -6,6 +6,7 @@
       "play": "开始游戏",
       "settings": "设置",
       "streak": "连续{{count}}天",
+      "leaderboard": "顶级黑客",
       "modes": { "classic": "经典模式", "time_attack": "计时模式", "infinite": "无限模式" },
       "modeDesc": {
         "classic": "避开墙壁，不断成长",
@@ -16,15 +17,19 @@
     "game": {
       "score": "分数", "level": "等级", "time": "时间",
       "paused": "已暂停", "resume": "继续", "menu": "菜单",
-      "pu": { "turbo": "加速!", "shield": "护盾!", "x2": "双倍分数!" }
+      "pu": { "turbo": "加速!", "shield": "护盾!", "x2": "双倍分数!" },
+      "hack": "黑客!", "hackReady": "黑客就绪",
+      "combo": "连击 ×{{n}}",
+      "food": { "data": "数据", "virus": "病毒", "overclock": "超频", "glitch": "故障" }
     },
     "over": {
       "title": "游戏结束", "newRecord": "新纪录!",
-      "score": "分数", "best": "最高分", "retry": "再玩一次", "home": "主页"
+      "score": "分数", "best": "最高分", "retry": "再玩一次", "home": "主页",
+      "hacker": "ID: {{name}}", "leaderboard": "顶级黑客"
     },
     "settings": {
-      "title": "设置", "sound": "声音", "vibration": "震动",
-      "theme": "颜色主题", "language": "语言", "skins": "蛇皮肤",
+      "title": "设置", "music": "音乐", "sfx": "音效", "vibration": "震动",
+      "walls": "墙壁", "theme": "颜色主题", "language": "语言", "skins": "蛇皮肤",
       "back": "返回", "on": "开", "off": "关",
       "locked": "锁定（{{pts}}分）", "select": "选择", "selected": "已选择"
     },

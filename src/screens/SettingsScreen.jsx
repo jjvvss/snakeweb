@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import i18n from '../i18n/config';
 import { SKINS } from '../constants/game';
 import { loadData, saveData } from '../utils/storage';
+import { music } from '../utils/music';
+import { setSfxVolume } from '../utils/audio';
 
 const LANGUAGES = [
   { code: 'en', label: 'English' },
@@ -16,6 +18,7 @@ const LANGUAGES = [
   { code: 'ja', label: '日本語' },
   { code: 'ko', label: '한국어' },
   { code: 'ar', label: 'العربية' },
+  { code: 'tr', label: 'Türkçe' },
 ];
 
 const THEMES = ['green', 'blue', 'purple', 'red'];
@@ -52,12 +55,26 @@ export default function SettingsScreen() {
       </div>
 
       <div className="settings-body">
-        {/* Sound */}
-        <div className="setting-row">
-          <span>{t('settings.sound')}</span>
-          <button className={`toggle-btn ${data.soundOn ? 'on' : ''}`} onClick={() => update({ soundOn: !data.soundOn })}>
-            {data.soundOn ? t('settings.on') : t('settings.off')}
-          </button>
+        {/* Music Volume */}
+        <div className="setting-row setting-col">
+          <div className="volume-header">
+            <span>{t('settings.music')}</span>
+            <span className="volume-pct">{data.musicVolume}%</span>
+          </div>
+          <input type="range" min="0" max="100" value={data.musicVolume} className="volume-slider"
+            style={{ '--val': `${data.musicVolume}%` }}
+            onChange={e => { const v = +e.target.value; update({ musicVolume: v }); music.setVolume(v / 100); }} />
+        </div>
+
+        {/* SFX Volume */}
+        <div className="setting-row setting-col">
+          <div className="volume-header">
+            <span>{t('settings.sfx')}</span>
+            <span className="volume-pct">{data.sfxVolume}%</span>
+          </div>
+          <input type="range" min="0" max="100" value={data.sfxVolume} className="volume-slider"
+            style={{ '--val': `${data.sfxVolume}%` }}
+            onChange={e => { const v = +e.target.value; update({ sfxVolume: v }); setSfxVolume(v / 100); }} />
         </div>
 
         {/* Vibration */}
@@ -69,6 +86,17 @@ export default function SettingsScreen() {
             </button>
           </div>
         )}
+
+        {/* Walls */}
+        <div className="setting-row">
+          <span>{t('settings.walls')}</span>
+          <button
+            className={`toggle-btn ${data.wallsOn !== false ? 'on' : ''}`}
+            onClick={() => update({ wallsOn: data.wallsOn === false })}
+          >
+            {data.wallsOn !== false ? t('settings.on') : t('settings.off')}
+          </button>
+        </div>
 
         {/* Color Theme */}
         <div className="setting-row setting-col">

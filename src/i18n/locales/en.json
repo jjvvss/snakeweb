@@ -6,6 +6,7 @@
       "play": "PLAY",
       "settings": "Settings",
       "streak": "{{count}} day streak",
+      "leaderboard": "Top Hackers",
       "modes": {
         "classic": "Classic",
         "time_attack": "Time Attack",
@@ -24,7 +25,11 @@
       "paused": "PAUSED",
       "resume": "Resume",
       "menu": "Menu",
-      "pu": { "turbo": "TURBO!", "shield": "SHIELD!", "x2": "2× POINTS!" }
+      "hack": "HACK!",
+      "hackReady": "HACK RDY",
+      "combo": "COMBO ×{{n}}",
+      "pu": { "turbo": "TURBO!", "shield": "SHIELD!", "x2": "2× POINTS!" },
+      "food": { "data": "DATA", "virus": "VIRUS", "overclock": "OVERCLOCK", "glitch": "GLITCH" }
     },
     "over": {
       "title": "GAME OVER",
@@ -32,12 +37,16 @@
       "score": "Score",
       "best": "Best",
       "retry": "Try Again",
-      "home": "Home"
+      "home": "Home",
+      "hacker": "ID: {{name}}",
+      "leaderboard": "TOP HACKERS"
     },
     "settings": {
       "title": "Settings",
-      "sound": "Sound",
+      "music": "Music",
+      "sfx": "Sound FX",
       "vibration": "Vibration",
+      "walls": "Walls",
       "theme": "Color Theme",
       "language": "Language",
       "skins": "Snake Skins",

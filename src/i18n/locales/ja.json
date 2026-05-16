@@ -6,6 +6,7 @@
       "play": "プレイ",
       "settings": "設定",
       "streak": "{{count}}日連続",
+      "leaderboard": "トップハッカー",
       "modes": { "classic": "クラシック", "time_attack": "タイムアタック", "infinite": "無限" },
       "modeDesc": {
         "classic": "壁を避けて成長しよう",
@@ -16,15 +17,19 @@
     "game": {
       "score": "スコア", "level": "レベル", "time": "時間",
       "paused": "一時停止", "resume": "再開", "menu": "メニュー",
-      "pu": { "turbo": "ターボ!", "shield": "シールド!", "x2": "2倍ポイント!" }
+      "pu": { "turbo": "ターボ!", "shield": "シールド!", "x2": "2倍ポイント!" },
+      "hack": "ハック!", "hackReady": "ハック準備完了",
+      "combo": "コンボ ×{{n}}",
+      "food": { "data": "データ", "virus": "ウイルス", "overclock": "オーバークロック", "glitch": "グリッチ" }
     },
     "over": {
       "title": "ゲームオーバー", "newRecord": "新記録!",
-      "score": "スコア", "best": "ベスト", "retry": "もう一度", "home": "ホーム"
+      "score": "スコア", "best": "ベスト", "retry": "もう一度", "home": "ホーム",
+      "hacker": "ID: {{name}}", "leaderboard": "トップハッカー"
     },
     "settings": {
-      "title": "設定", "sound": "サウンド", "vibration": "バイブレーション",
-      "theme": "カラーテーマ", "language": "言語", "skins": "スネークスキン",
+      "title": "設定", "music": "音楽", "sfx": "効果音", "vibration": "バイブレーション",
+      "walls": "壁", "theme": "カラーテーマ", "language": "言語", "skins": "スネークスキン",
       "back": "戻る", "on": "オン", "off": "オフ",
       "locked": "ロック済み（{{pts}}pt）", "select": "選択", "selected": "選択中"
     },

@@ -1,0 +1,67 @@
+{
+  "translation": {
+    "appTitle": "NEON YILAN",
+    "home": {
+      "bestScore": "En İyi Skor",
+      "play": "OYNA",
+      "settings": "Ayarlar",
+      "streak": "{{count}} günlük seri",
+      "leaderboard": "Top Hackerlar",
+      "modes": {
+        "classic": "Klasik",
+        "time_attack": "Zaman Saldırısı",
+        "infinite": "Sonsuz"
+      },
+      "modeDesc": {
+        "classic": "Duvarlardan kaçın ve büyü",
+        "time_attack": "60 saniyede maksimum puan",
+        "infinite": "Duvar yok, sonsuz oyun"
+      }
+    },
+    "game": {
+      "score": "Skor",
+      "level": "Seviye",
+      "time": "Süre",
+      "paused": "DURDURULDU",
+      "resume": "Devam Et",
+      "menu": "Menü",
+      "pu": { "turbo": "TURBO!", "shield": "KALKAN!", "x2": "2× PUAN!" },
+      "hack": "HACK!", "hackReady": "HACK HAZIR",
+      "combo": "KOMBO ×{{n}}",
+      "food": { "data": "VERİ", "virus": "VİRÜS", "overclock": "OVERCLOCK", "glitch": "GLITCH" }
+    },
+    "over": {
+      "title": "OYUN BİTTİ",
+      "newRecord": "YENİ REKOR!",
+      "score": "Skor",
+      "best": "En İyi",
+      "retry": "Tekrar Dene",
+      "home": "Ana Sayfa",
+      "hacker": "ID: {{name}}",
+      "leaderboard": "TOP HACKERLAR"
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "music": "Müzik",
+      "sfx": "Sesler",
+      "vibration": "Titreşim",
+      "walls": "Duvarlar",
+      "theme": "Renk Teması",
+      "language": "Dil",
+      "skins": "Yılan Görünümleri",
+      "back": "Geri",
+      "on": "Açık",
+      "off": "Kapalı",
+      "locked": "Kilitli ({{pts}} puan)",
+      "select": "Seç",
+      "selected": "Seçildi"
+    },
+    "skins": {
+      "classic": "Klasik Yeşil",
+      "cyber": "Siber Mavi",
+      "plasma": "Plazma Mor",
+      "lava": "Lav Turuncu",
+      "ice": "Buz Beyazı"
+    }
+  }
+}
